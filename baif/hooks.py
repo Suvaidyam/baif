@@ -7,6 +7,18 @@ app_license = "mit"
 
 # Apps
 # ------------------
+fixtures = [
+    {
+        "dt":"DocType",
+        "filters": {"custom":1}
+    },
+    {
+        "dt":"Property Setter",
+    },
+    {
+        "dt":"Custom Field",
+    }
+]
 
 # required_apps = []
 
