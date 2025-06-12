@@ -17,6 +17,9 @@ fixtures = [
     },
     {
         "dt":"Custom Field",
+    },
+    {
+        "dt":"Workspace",
     }
 ]
 
