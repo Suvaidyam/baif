@@ -25,7 +25,7 @@ fixtures = [
         #  ]
      },
     "SVAWorkspace Configuration",
-    "Navbar Settings"
+    "Navbar Settings",
     # "Role Profile",
     # "Custom DocPerm",
     "Workflow",
