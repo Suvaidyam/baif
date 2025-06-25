@@ -1,0 +1,3953 @@
+[
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"EZyp_HUkbc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Sub Grant\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "grid",
+  "indicator_color": "green",
+  "is_hidden": 1,
+  "label": "Sub Grant",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-03-28 10:38:16.889695",
+  "module": "Mgrant",
+  "name": "Sub Grant",
+  "number_cards": [
+   {
+    "label": "Sub Grant",
+    "number_card_name": "Sub Grant"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 6.0,
+  "shortcuts": [],
+  "title": "Sub Grant",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"type\":\"header\",\"data\":{\"text\":\"mGrant AI\"}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "today",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "mGrant AI",
+  "link_to": "wren-ai",
+  "link_type": "Page",
+  "links": [],
+  "modified": "2025-03-28 02:07:02.681193",
+  "module": "Mgrant",
+  "name": "mGrant AI",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 27.0,
+  "shortcuts": [],
+  "title": "mGrant AI",
+  "type": "Link"
+ },
+ {
+  "app": "mgrant",
+  "charts": [
+   {
+    "chart_name": "DISTRIBUTION OF NGOs BY PROGRAMME",
+    "label": "DISTRIBUTION OF NGOs BY PROGRAMME"
+   }
+  ],
+  "content": "[{\"id\":\"o7lnZ-KPF7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total NGOs\",\"col\":4}},{\"id\":\"BaCxSXptts\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Vendors\",\"col\":4}},{\"id\":\"uJ2B45UI5y\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2Cm3CPKQo1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL BLACKLISTED NGOs\",\"col\":4}},{\"id\":\"0uV0QkZbK1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"NGOs - DD NOT CONDUCTED\",\"col\":4}},{\"id\":\"N6baIn985I\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"NGOs - DD EXPIRING IN 3 MONTHS\",\"col\":4}},{\"id\":\"BRWJjMc0hU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"NGOs - DD EXPIRED\",\"col\":4}},{\"id\":\"jv_LrHQ4V1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DISTRIBUTION OF NGOs BY PROGRAMME\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "accounting",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Partners Workspace",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-03-28 10:38:16.892991",
+  "module": "mGrant - NGO",
+  "name": "Partners Workspace",
+  "number_cards": [
+   {
+    "label": "TOTAL BLACKLISTED NGOs",
+    "number_card_name": "TOTAL BLACKLISTED NGOs"
+   },
+   {
+    "label": "Total Vendors",
+    "number_card_name": "Vendors"
+   },
+   {
+    "label": "NGOs - DD NOT CONDUCTED",
+    "number_card_name": "NGOs DD NOT CONDUCTED"
+   },
+   {
+    "label": "NGOs - DD EXPIRED",
+    "number_card_name": "NGOs DD EXPIRED"
+   },
+   {
+    "label": "NGOs - DD EXPIRING IN 3 MONTHS",
+    "number_card_name": "DD EXPIRING IN 3 MONTHS"
+   },
+   {
+    "label": "Total NGOs",
+    "number_card_name": "NGOs"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 11.0,
+  "shortcuts": [],
+  "title": "Partners Workspace",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [
+   {
+    "chart_name": "GRANT STATUS DISTRIBUTION",
+    "label": "GRANT STATUS DISTRIBUTION"
+   },
+   {
+    "chart_name": "OVERDUE REPORTS BY NGO",
+    "label": "OVERDUE REPORTS BY NGO"
+   },
+   {
+    "chart_name": "EXPIRING GRANTS",
+    "label": "EXPIRING GRANTS"
+   },
+   {
+    "chart_name": "DELAYED DISBURSEMENTS BY NGO",
+    "label": "DELAYED DISBURSEMENTS BY NGO"
+   },
+   {
+    "chart_name": "BUDGET VS ACTUAL BY CATEGORY",
+    "label": "BUDGET VS ACTUAL BY CATEGORY"
+   },
+   {
+    "chart_name": "IMPACT VS INVESTMENT BY NGO",
+    "label": "IMPACT VS INVESTMENT BY NGO"
+   },
+   {
+    "chart_name": "MILESTONE COMPLETION STATUS",
+    "label": "MILESTONE COMPLETION STATUS"
+   },
+   {
+    "chart_name": "GRANTS BY PROGRAM AREA OR THEME",
+    "label": "GRANTS BY PROGRAM AREA OR THEME"
+   },
+   {
+    "chart_name": "FUND UTILISATION BY GRANTS",
+    "label": "FUND UTILISATION BY GRANTS"
+   },
+   {
+    "chart_name": "OVERDUE MILESTONES BY NGO",
+    "label": "OVERDUE MILESTONES BY NGO"
+   }
+  ],
+  "content": "[{\"id\":\"XP_SKRatJD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Key Stats</span>\",\"col\":12}},{\"id\":\"I5DM707CdF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL ACTIVE GRANTS\",\"col\":4}},{\"id\":\"GKpu3HCENX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL FUNDS COMMITTED\",\"col\":4}},{\"id\":\"FWmfZ8Zxff\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL DISBURSED\",\"col\":4}},{\"id\":\"69UdAok2h9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"UTILISATION RATE\",\"col\":4}},{\"id\":\"w14uzslxP0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"UPCOMING MILESTONES\",\"col\":4}},{\"id\":\"mZqUdqYI7q\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"UPCOMING TRANCHES\",\"col\":4}},{\"id\":\"n3oZhx4Zfc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"REPORTING COMPLIANCE STATUS\",\"col\":4}},{\"id\":\"3D0cNll90Y\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"STATES REACHED\",\"col\":4}},{\"id\":\"gIO20nm3f2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"DISTRICTS REACHED\",\"col\":4}},{\"id\":\"2N_g8rtoej\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Insights</span>\",\"col\":12}},{\"id\":\"lotgbPAZh1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"AVERAGE DISBURSEMENT CYCLE (IN DAYS)\",\"col\":4}},{\"id\":\"a01xeATu-S\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Details<b></b></span>\",\"col\":12}},{\"id\":\"gX8sITaYuW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"GRANT STATUS DISTRIBUTION\",\"col\":12}},{\"id\":\"u5YIKsp5RO\",\"type\":\"chart\",\"data\":{\"chart_name\":\"BUDGET VS ACTUAL BY CATEGORY\",\"col\":12}},{\"id\":\"TolnLJkO89\",\"type\":\"chart\",\"data\":{\"chart_name\":\"IMPACT VS INVESTMENT BY NGO\",\"col\":12}},{\"id\":\"mbe4xUoDJb\",\"type\":\"chart\",\"data\":{\"chart_name\":\"MILESTONE COMPLETION STATUS\",\"col\":12}},{\"id\":\"s0WJ9QSCYs\",\"type\":\"chart\",\"data\":{\"chart_name\":\"GRANTS BY PROGRAM AREA OR THEME\",\"col\":12}},{\"id\":\"lizXX0-mSJ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"FUND UTILISATION BY GRANTS\",\"col\":12}},{\"id\":\"cWEt85cKi1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"OVERDUE MILESTONES BY NGO\",\"col\":12}},{\"id\":\"BGrTC3cW29\",\"type\":\"chart\",\"data\":{\"chart_name\":\"OVERDUE REPORTS BY NGO\",\"col\":12}},{\"id\":\"8VDmjI_gAr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DELAYED DISBURSEMENTS BY NGO\",\"col\":12}},{\"id\":\"Op7t2J8-jk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"EXPIRING GRANTS\",\"col\":12}},{\"id\":\"399ZHxbdvO\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"State-wise Grant\",\"col\":12}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "State-wise Grant",
+    "label": "State-wise Grant"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "dashboard-list",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Grant Management",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-24 14:09:00.899083",
+  "module": "Mgrant",
+  "name": "Grant Management",
+  "number_cards": [
+   {
+    "label": "UTILISATION RATE",
+    "number_card_name": "UTILIZATION RATE"
+   },
+   {
+    "label": "UPCOMING TRANCHES",
+    "number_card_name": "UPCOMING TRANCHES"
+   },
+   {
+    "label": "REPORTING COMPLIANCE STATUS",
+    "number_card_name": "REPORTING COMPLIANCE STATUS"
+   },
+   {
+    "label": "TOTAL DISBURSED",
+    "number_card_name": "TOTAL DISBURSED"
+   },
+   {
+    "label": "TOTAL ACTIVE GRANTS",
+    "number_card_name": "TOTAL ACTIVE GRANTS"
+   },
+   {
+    "label": "UPCOMING MILESTONES",
+    "number_card_name": "UPCOMING MILESTONES"
+   },
+   {
+    "label": "TOTAL FUNDS COMMITTED",
+    "number_card_name": "TOTAL FUNDS COMMITTED"
+   },
+   {
+    "label": "AVERAGE DISBURSEMENT CYCLE (IN DAYS)",
+    "number_card_name": "AVERAGE DISBURSEMENT CYCLE (IN DAYS)"
+   },
+   {
+    "label": "DISTRICTS REACHED",
+    "number_card_name": "DISTRICTS REACHED"
+   },
+   {
+    "label": "STATES REACHED",
+    "number_card_name": "STATES REACHED"
+   }
+  ],
+  "parent_page": "Dashboard",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 17.0,
+  "shortcuts": [],
+  "title": "Grant Management",
+  "type": "Workspace"
+ },
+ {
+  "app": "frappe",
+  "charts": [],
+  "content": "[{\"id\":\"2eyXSHwMTE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\">Hi,</span>\",\"col\":12}},{\"id\":\"ZusKvFOXgu\",\"type\":\"paragraph\",\"data\":{\"text\":\"I guess you don't have access to any workspace yet, but you can create one just for yourself. Click on the <b>Create Workspace</b> button to create one.<br>\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "image-view",
+  "indicator_color": null,
+  "is_hidden": 0,
+  "label": "Welcome Workspace",
+  "link_to": null,
+  "link_type": null,
+  "links": [],
+  "modified": "2025-02-17 16:39:40.832842",
+  "module": "Core",
+  "name": "Welcome Workspace",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 22.0,
+  "shortcuts": [],
+  "title": "Welcome Workspace",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"qSR_rAjk3F\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Grant\",\"col\":6}},{\"id\":\"0nvDBH7Qh7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":6}},{\"id\":\"dXdg0T7WJD\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Fund Requested\",\"col\":3}},{\"id\":\"Xt3IROftz_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Tranches\",\"col\":3}},{\"id\":\"Lk57yuBfbC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Fund Recieved\",\"col\":3}},{\"id\":\"4IWiDjGLDg\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Budget Utilisations\",\"col\":3}},{\"id\":\"EEfMEMXhnS\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Active Grants Allocated to Different NGOs\",\"col\":12}},{\"id\":\"eXgeFh3oJa\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Fund Sanctioned vs Funds Utilised\",\"col\":12}},{\"id\":\"d0It_sY-0r\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Bifurcation of Grants as per SDGs\",\"col\":6}},{\"id\":\"O2r2AJlj6m\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Theme Based Bifurcation of Grants\",\"col\":6}},{\"id\":\"qlS-w0biI4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Commitment Amount\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "project-2",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "NGO Grants Workspace",
+  "link_to": "Grant",
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-03-02 11:00:51.682065",
+  "module": "mGrant - Project",
+  "name": "NGO Grants Workspace",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "NGO Admin"
+   }
+  ],
+  "sequence_id": 8.0,
+  "shortcuts": [],
+  "title": "Grants Workspace",
+  "type": "Link"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"JY8kB6rcIi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Welcome to mGrant, AFEF's grant management system.</span>\",\"col\":12}},{\"id\":\"eV1Fs2_K4E\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"YnYKVP_1mR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Grants\",\"col\":3}},{\"id\":\"OYabrQj8RI\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8EFtUNiDGO\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Your Upcoming Tasks\",\"col\":6}},{\"id\":\"3xHv1XAwN5\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Upcoming Reporting\",\"col\":6}},{\"id\":\"APP6-0iZcY\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"iKQGj-rMn6\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"n7x3TU8pjY\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Upcoming Tranches\",\"col\":6}},{\"id\":\"QyGPO96iFT\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Recent Grants\",\"col\":6}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "Your Upcoming Tasks",
+    "label": "Your Upcoming Tasks"
+   },
+   {
+    "custom_block_name": "Upcoming Reporting",
+    "label": "Upcoming Reporting"
+   },
+   {
+    "custom_block_name": "Recent Grants",
+    "label": "Recent Grants"
+   },
+   {
+    "custom_block_name": "Upcoming Tranches",
+    "label": "Upcoming Tranches"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "home",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "NGO Home",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-22 16:12:31.260264",
+  "module": "Mgrant",
+  "name": "NGO Home",
+  "number_cards": [
+   {
+    "label": "Active Grants",
+    "number_card_name": "Active Projects"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "NGO Admin"
+   }
+  ],
+  "sequence_id": 2.0,
+  "shortcuts": [],
+  "title": "Home",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Application Workspace _\"}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": "/app/proposal/view/list",
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "file",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "NGO Applications Workspace",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-03-02 11:00:51.679025",
+  "module": "mGrant - Proposal",
+  "name": "NGO Applications Workspace",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "NGO Admin"
+   }
+  ],
+  "sequence_id": 4.0,
+  "shortcuts": [],
+  "title": "Applications Workspace",
+  "type": "URL"
+ },
+ {
+  "app": "frappe",
+  "charts": [],
+  "content": "[{\"id\":\"HXRmktXYHy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"DocType\",\"col\":3}},{\"id\":\"NosD6wA0vD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Module Def\",\"col\":3}},{\"id\":\"62hseENHbd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"MmEJpjEdGR\",\"type\":\"card\",\"data\":{\"card_name\":\"Views\",\"col\":4}},{\"id\":\"2ZdtgxQZqq\",\"type\":\"card\",\"data\":{\"card_name\":\"Customization\",\"col\":4}},{\"id\":\"NPFolijIcb\",\"type\":\"card\",\"data\":{\"card_name\":\"Scripting\",\"col\":4}},{\"id\":\"BIHjudL0T_\",\"type\":\"card\",\"data\":{\"card_name\":\"Modules\",\"col\":4}},{\"id\":\"iK3JQ9RXJE\",\"type\":\"card\",\"data\":{\"card_name\":\"Packages\",\"col\":4}},{\"id\":\"TiO9FCUUeC\",\"type\":\"card\",\"data\":{\"card_name\":\"System Logs\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "hammer",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Build",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [
+   {
+    "dependencies": null,
+    "description": "Customize properties, naming, fields and more for standard doctypes",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Customization",
+    "link_count": 4,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Customize Form",
+    "link_count": 0,
+    "link_to": "Customize Form",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Custom Field",
+    "link_count": 0,
+    "link_to": "Custom Field",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Custom Translation",
+    "link_count": 0,
+    "link_to": "Translation",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Navbar Settings",
+    "link_count": 0,
+    "link_to": "Navbar Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": "Group your custom doctypes under modules",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Modules",
+    "link_count": 2,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Module Def",
+    "link_count": 0,
+    "link_to": "Module Def",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Module Onboarding",
+    "link_count": 0,
+    "link_to": "Module Onboarding",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": "Packages are lightweight apps (collection of Module Defs) that can be created, imported, or released right from the UI",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Packages",
+    "link_count": 2,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Package",
+    "link_count": 0,
+    "link_to": "Package",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Package Import",
+    "link_count": 0,
+    "link_to": "Package Import",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": "Automate processes and extend standard functionality using scripts and background jobs",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Scripting",
+    "link_count": 3,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Server Script",
+    "link_count": 0,
+    "link_to": "Server Script",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Client Script",
+    "link_count": 0,
+    "link_to": "Client Script",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Scheduled Job Type",
+    "link_count": 0,
+    "link_to": "Scheduled Job Type",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": "Build your own reports, print formats, and dashboards. Create personalized workspaces for easier navigation",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Views",
+    "link_count": 6,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Report",
+    "link_count": 0,
+    "link_to": "Report",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Dashboard",
+    "link_count": 0,
+    "link_to": "Dashboard",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Print Format",
+    "link_count": 0,
+    "link_to": "Print Format",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Page",
+    "link_count": 0,
+    "link_to": "Page",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Workspace",
+    "link_count": 0,
+    "link_to": "Workspace",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Dashboard Chart",
+    "link_count": 0,
+    "link_to": "Dashboard Chart",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": "Monitor logs for errors, background jobs, communications, and user activity",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "System Logs",
+    "link_count": 6,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Background Jobs",
+    "link_count": 0,
+    "link_to": "RQ Job",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Scheduled Jobs Logs",
+    "link_count": 0,
+    "link_to": "Scheduled Job Log",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Error Logs",
+    "link_count": 0,
+    "link_to": "Error Log",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Activity Log",
+    "link_count": 0,
+    "link_to": "Activity Log",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Communication Logs",
+    "link_count": 0,
+    "link_to": "Communication",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Webhook Request Log",
+    "link_count": 0,
+    "link_to": "Webhook Request Log",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   }
+  ],
+  "modified": "2025-02-26 14:09:36.133320",
+  "module": "Core",
+  "name": "Build",
+  "number_cards": [],
+  "parent_page": null,
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 1.0,
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Module Def",
+    "link_to": "Module Def",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "DocType",
+    "link_to": "DocType",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Build",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"5-fQ7ECP50\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"RFP\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "table",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "RFP Workspace",
+  "link_to": "RFP",
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-06 14:57:49.494839",
+  "module": "mGrant - Proposal",
+  "name": "RFP Workspace",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 3.0,
+  "shortcuts": [],
+  "title": "RFP Workspace",
+  "type": "Link"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"type\":\"header\",\"data\":{\"text\":\"My Profile\"}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": "/api/method/mgrant.apis.api.go_to_relevant_profile",
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "organization",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "My Organisation",
+  "link_to": "NGO",
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-06 14:57:29.817215",
+  "module": "mGrant - NGO",
+  "name": "My Organisation",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "NGO Admin"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 15.0,
+  "shortcuts": [],
+  "title": "My Organisation",
+  "type": "URL"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"JY8kB6rcIi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Welcome to mGrant</span>\",\"col\":12}},{\"id\":\"ToOWo4uhya\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QMAIhTx6rg\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"TZo_vLY89V\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"vbVMmuCQJi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Grants Summary</b></span>\",\"col\":12}},{\"id\":\"3rmhsw2K1-\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"eV1Fs2_K4E\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"cR-937klPD\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Grants\",\"col\":3}},{\"id\":\"YnYKVP_1mR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Grants\",\"col\":3}},{\"id\":\"EMVJfW0C5w\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total NGOs\",\"col\":3}},{\"id\":\"r2RZig2CsC\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Application In Pipline\",\"col\":3}},{\"id\":\"FLvfAZZuPY\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"j2-BKIA-th\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"o0qcqBpiBt\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Y8gzAb8dLD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Activity Summary</b></span>\",\"col\":12}},{\"id\":\"lyBtXSIWvy\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"tgno2SpvJ7\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"msaudx7c79\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Your Upcoming Tasks\",\"col\":6}},{\"id\":\"3Da_kgRaFK\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Upcoming Reporting\",\"col\":6}},{\"id\":\"oKhwKA-xg1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"uJDqasL22P\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"dNAv5PSvfQ\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Active Grant\",\"col\":6}},{\"id\":\"NDCUFt8LXm\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Upcoming Tranches\",\"col\":6}},{\"id\":\"3MXK8CmcU8\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8zT7xFfkcg\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"IsZymEvzO_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"JRhYDz1IdK\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Application In Pipeline\",\"col\":6}},{\"id\":\"2Vsj5KdLHz\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Heatmap for grant\",\"col\":6}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "Heatmap for grant",
+    "label": "Heatmap for grant"
+   },
+   {
+    "custom_block_name": "Application In Pipeline",
+    "label": "Application In Pipeline"
+   },
+   {
+    "custom_block_name": "Your Upcoming Tasks",
+    "label": "Your Upcoming Tasks"
+   },
+   {
+    "custom_block_name": "Active Grant",
+    "label": "Active Grant"
+   },
+   {
+    "custom_block_name": "Upcoming Reporting",
+    "label": "Upcoming Reporting"
+   },
+   {
+    "custom_block_name": "Upcoming Tranches",
+    "label": "Upcoming Tranches"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "home",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Home",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-05-29 14:07:59.761673",
+  "module": "Mgrant",
+  "name": "Home",
+  "number_cards": [
+   {
+    "label": "Total Grants",
+    "number_card_name": "Grant"
+   },
+   {
+    "label": "Active Grants",
+    "number_card_name": "Active Projects"
+   },
+   {
+    "label": "Total NGOs",
+    "number_card_name": "NGOs"
+   },
+   {
+    "label": "Application In Pipline",
+    "number_card_name": "Application In Pipline"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 1.0,
+  "shortcuts": [],
+  "title": "Home",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"v6d-P5MYGH\",\"type\":\"paragraph\",\"data\":{\"text\":\"Upcoming...\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "table",
+  "indicator_color": "green",
+  "is_hidden": 1,
+  "label": "Reports",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-03-02 11:00:51.686104",
+  "module": "Mgrant",
+  "name": "Reports",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 14.0,
+  "shortcuts": [],
+  "title": "Reports",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"R4f4BOaiqk\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Donors\",\"col\":6}},{\"id\":\"wbMBqO4LKB\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Active Grants from Donors\",\"col\":12}},{\"id\":\"W99qREOkjI\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Funds Sanctioned By the Donors\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "share",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Donors Workspace",
+  "link_to": "Donor",
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-08 15:19:44.017125",
+  "module": "Mgrant",
+  "name": "Donors Workspace",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   },
+   {
+    "role": "mGrant Partnerships"
+   }
+  ],
+  "sequence_id": 11.0,
+  "shortcuts": [],
+  "title": "Donors Workspace",
+  "type": "Link"
+ },
+ {
+  "app": "mgrant",
+  "charts": [
+   {
+    "chart_name": "RFP application stage wise",
+    "label": "RFP Wise"
+   },
+   {
+    "chart_name": "Application RFP wise sanctioned amount",
+    "label": "RFP Wise Amount Senctioned To NGOs "
+   }
+  ],
+  "content": "[{\"id\":\"S5HduAFvZe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Applications\",\"col\":4}},{\"id\":\"N-kzYI08qs\",\"type\":\"chart\",\"data\":{\"chart_name\":\"RFP Wise\",\"col\":12}},{\"id\":\"rgLXFB_zQn\",\"type\":\"chart\",\"data\":{\"chart_name\":\"RFP Wise Amount Senctioned To NGOs \",\"col\":12}},{\"id\":\"gC-nyV6llb\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"dRGPzkxI8U\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Qj7fmgYJdO\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Task for Application\",\"col\":12}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "Task for Application",
+    "label": "Task for Application"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "file",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Applications Workspace",
+  "link_to": "Proposal",
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-05-30 18:25:05.722860",
+  "module": "mGrant - Proposal",
+  "name": "Applications Workspace",
+  "number_cards": [
+   {
+    "label": "Applications",
+    "number_card_name": "Proposals"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 5.0,
+  "shortcuts": [],
+  "title": "Applications Workspace",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [
+   {
+    "chart_name": "Programme Wise Grant",
+    "label": "Programme Wise grants"
+   },
+   {
+    "chart_name": "Grant Utilisation",
+    "label": "Grant Utilisation"
+   },
+   {
+    "chart_name": "Programme Wise Grant Sanctioned Amount",
+    "label": "Programme Wise Senctioned Amount "
+   }
+  ],
+  "content": "[{\"id\":\"qSR_rAjk3F\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Grants\",\"col\":3}},{\"id\":\"0nvDBH7Qh7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Grants\",\"col\":3}},{\"id\":\"_69oEzphx7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Grant Sanctioned Amount\",\"col\":3}},{\"id\":\"07131E1wTS\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Grant Disbursed Amount\",\"col\":3}},{\"id\":\"YA1k6USQSk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Programme Wise grants\",\"col\":6}},{\"id\":\"O8Qwd6mswa\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Programme Wise Senctioned Amount \",\"col\":6}},{\"id\":\"xDEnn8YCcq\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Grant Utilisation\",\"col\":12}},{\"id\":\"RPxzXAxgl2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"w2OKT3jX4U\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Q73zakBY9Z\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Tasks for Grant\",\"col\":6}},{\"id\":\"xGI7wMkg8E\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Report for grant\",\"col\":6}},{\"id\":\"5Gw26ic0uF\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"_JBXmsPQcE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"xJpTqJR1gW\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Grant Expiry In 3 Month\",\"col\":6}},{\"id\":\"mJubNPj1Vf\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Grant with no activity in 2 months\",\"col\":6}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "Tasks for Grant",
+    "label": "Tasks for Grant"
+   },
+   {
+    "custom_block_name": "Report for grant",
+    "label": "Report for grant"
+   },
+   {
+    "custom_block_name": "Grant Expiry In 3 Month",
+    "label": "Grant Expiry In 3 Month"
+   },
+   {
+    "custom_block_name": "Grant with no activity in 2 months",
+    "label": "Grant with no activity in 2 months"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "project-2",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Grants Workspace",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-05-29 15:32:50.181332",
+  "module": "mGrant - Project",
+  "name": "Grants Workspace",
+  "number_cards": [
+   {
+    "label": "Grant Sanctioned Amount",
+    "number_card_name": "Total Commitment Amount"
+   },
+   {
+    "label": "Total Grants",
+    "number_card_name": "Grant"
+   },
+   {
+    "label": "Grant Disbursed Amount",
+    "number_card_name": "Total Disbursed Amount"
+   },
+   {
+    "label": "Active Grants",
+    "number_card_name": "Active Projects"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 7.0,
+  "shortcuts": [],
+  "title": "Grants Workspace",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"oCHUJ9QoqJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Masters</b></span>\",\"col\":12}},{\"id\":\"NZkSiacTAS\",\"type\":\"card\",\"data\":{\"card_name\":\"Programme Masters\",\"col\":4}},{\"id\":\"0TTWy5PdRq\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"WWbwg4lPx7\",\"type\":\"card\",\"data\":{\"card_name\":\"Geography List\",\"col\":4}},{\"id\":\"ODuqIcXKpZ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Settings &amp; Integrations</b></span>\",\"col\":12}},{\"id\":\"PfR6vrfK59\",\"type\":\"card\",\"data\":{\"card_name\":\"mGrant Settings\",\"col\":4}},{\"id\":\"L0HSEN51JP\",\"type\":\"card\",\"data\":{\"card_name\":\"Data\",\"col\":4}},{\"id\":\"hRgft8mlSS\",\"type\":\"card\",\"data\":{\"card_name\":\"Integrations\",\"col\":4}},{\"id\":\"RGdSEBSs3r\",\"type\":\"card\",\"data\":{\"card_name\":\"Roles & User Settings\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "integration",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Settings",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Masters",
+    "link_count": 5,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Demography Group",
+    "link_count": 0,
+    "link_to": "Demography Group",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Department",
+    "link_count": 0,
+    "link_to": "Department",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Designation",
+    "link_count": 0,
+    "link_to": "Designation",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "KPIs",
+    "link_count": 0,
+    "link_to": "KPIs",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Units",
+    "link_count": 0,
+    "link_to": "Units",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Integrations",
+    "link_count": 1,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "mGrant API Integrations",
+    "link_count": 0,
+    "link_to": "mGrant API Integrations",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Roles & User Settings",
+    "link_count": 2,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Role Profile",
+    "link_count": 0,
+    "link_to": "Role Profile",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Users",
+    "link_count": 0,
+    "link_to": "SVA User",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Data",
+    "link_count": 2,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Deletion Log",
+    "link_count": 0,
+    "link_to": "Deleted Document",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Activity Log",
+    "link_count": 0,
+    "link_to": "Version",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "mGrant Settings",
+    "link_count": 5,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Org Settings",
+    "link_count": 0,
+    "link_to": "mGrant Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "My Theme",
+    "link_count": 0,
+    "link_to": "My Theme",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "mGrant Letter Head",
+    "link_count": 0,
+    "link_to": "mGrant Letter Head",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Datatable Configuration",
+    "link_count": 0,
+    "link_to": "SVADatatable Configuration",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Print Format",
+    "link_count": 0,
+    "link_to": "Print Format",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Geography List",
+    "link_count": 5,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "State",
+    "link_count": 0,
+    "link_to": "State",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "District",
+    "link_count": 0,
+    "link_to": "District",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Block",
+    "link_count": 0,
+    "link_to": "Block",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Gram Panchayat",
+    "link_count": 0,
+    "link_to": "Gram Panchayat",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Village",
+    "link_count": 0,
+    "link_to": "Village",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Programme Masters",
+    "link_count": 6,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Programme",
+    "link_count": 0,
+    "link_to": "Programme",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Budget Heads",
+    "link_count": 0,
+    "link_to": "Budget heads",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Financial Year",
+    "link_count": 0,
+    "link_to": "Financial Year",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Focus Area",
+    "link_count": 0,
+    "link_to": "Focus Area",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Themes",
+    "link_count": 0,
+    "link_to": "Themes",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "SDGs",
+    "link_count": 0,
+    "link_to": "SDGs",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   }
+  ],
+  "modified": "2025-04-06 14:54:28.182614",
+  "module": "Mgrant",
+  "name": "Settings",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 16.0,
+  "shortcuts": [],
+  "title": "Settings",
+  "type": "Workspace"
+ },
+ {
+  "app": "frappe",
+  "charts": [],
+  "content": "[{\"id\":\"NPK_AfSLQ2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"lDOo58F7ZI\",\"type\":\"card\",\"data\":{\"card_name\":\"Backup\",\"col\":4}},{\"id\":\"ij1pcK8jst\",\"type\":\"card\",\"data\":{\"card_name\":\"Google Services\",\"col\":4}},{\"id\":\"aTlMujEHpN\",\"type\":\"card\",\"data\":{\"card_name\":\"Authentication\",\"col\":4}},{\"id\":\"gY5NXKtXss\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"n_CI3GGqW-\",\"type\":\"card\",\"data\":{\"card_name\":\"Push Notifications\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "integration",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Integrations",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Backup",
+    "link_count": 0,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Dropbox Settings",
+    "link_count": 0,
+    "link_to": "Dropbox Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "S3 Backup Settings",
+    "link_count": 0,
+    "link_to": "S3 Backup Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Google Drive",
+    "link_count": 0,
+    "link_to": "Google Drive",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Google Services",
+    "link_count": 0,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Google Settings",
+    "link_count": 0,
+    "link_to": "Google Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Google Contacts",
+    "link_count": 0,
+    "link_to": "Google Contacts",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Google Calendar",
+    "link_count": 0,
+    "link_to": "Google Calendar",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Google Drive",
+    "link_count": 0,
+    "link_to": "Google Drive",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Settings",
+    "link_count": 0,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Webhook",
+    "link_count": 0,
+    "link_to": "Webhook",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Slack Webhook URL",
+    "link_count": 0,
+    "link_to": "Slack Webhook URL",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "SMS Settings",
+    "link_count": 0,
+    "link_to": "SMS Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Authentication",
+    "link_count": 4,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Social Login Key",
+    "link_count": 0,
+    "link_to": "Social Login Key",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "LDAP Settings",
+    "link_count": 0,
+    "link_to": "LDAP Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "OAuth Client",
+    "link_count": 0,
+    "link_to": "OAuth Client",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "OAuth Provider Settings",
+    "link_count": 0,
+    "link_to": "OAuth Provider Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Push Notifications",
+    "link_count": 1,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Push Notification Settings",
+    "link_count": 0,
+    "link_to": "Push Notification Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   }
+  ],
+  "modified": "2025-02-26 14:09:37.538286",
+  "module": "Integrations",
+  "name": "Integrations",
+  "number_cards": [],
+  "parent_page": null,
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 20.0,
+  "shortcuts": [],
+  "title": "Integrations",
+  "type": "Workspace"
+ },
+ {
+  "app": "frappe",
+  "charts": [],
+  "content": "[{\"id\":\"b7abeqw4NZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User\",\"col\":3}},{\"id\":\"eghSJPhZRC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Role\",\"col\":3}},{\"id\":\"uAzl_lT_C0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Permission Manager\",\"col\":3}},{\"id\":\"oFB4l28FMU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"NMpIkExl3i\",\"type\":\"card\",\"data\":{\"card_name\":\"Users\",\"col\":4}},{\"id\":\"VepG3durKm\",\"type\":\"card\",\"data\":{\"card_name\":\"Logs\",\"col\":4}},{\"id\":\"S9FeWt7xXE\",\"type\":\"card\",\"data\":{\"card_name\":\"Permissions\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "users",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Users",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Logs",
+    "link_count": 0,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Activity Log",
+    "link_count": 0,
+    "link_to": "Activity Log",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Access Log",
+    "link_count": 0,
+    "link_to": "Access Log",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Permissions",
+    "link_count": 0,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Role Permissions Manager",
+    "link_count": 0,
+    "link_to": "permission-manager",
+    "link_type": "Page",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "User Permissions",
+    "link_count": 0,
+    "link_to": "User Permission",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Role Permission for Page and Report",
+    "link_count": 0,
+    "link_to": "Role Permission for Page and Report",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": "User",
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 1,
+    "label": "Permitted Documents For User",
+    "link_count": 0,
+    "link_to": "Permitted Documents For User",
+    "link_type": "Report",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": "DocShare",
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Document Share Report",
+    "link_count": 0,
+    "link_to": "Document Share Report",
+    "link_type": "Report",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": "DocShare",
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Users",
+    "link_count": 4,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "User",
+    "link_count": 0,
+    "link_to": "User",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Role",
+    "link_count": 0,
+    "link_to": "Role",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Role Profile",
+    "link_count": 0,
+    "link_to": "Role Profile",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Module Profile",
+    "link_count": 0,
+    "link_to": "Module Profile",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   }
+  ],
+  "modified": "2025-02-26 14:09:37.734725",
+  "module": "Core",
+  "name": "Users",
+  "number_cards": [],
+  "parent_page": null,
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 13.0,
+  "shortcuts": [
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "User",
+    "link_to": "User",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Role",
+    "link_to": "Role",
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Permission Manager",
+    "link_to": "permission-manager",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "Page",
+    "url": null
+   }
+  ],
+  "title": "Users",
+  "type": "Workspace"
+ },
+ {
+  "app": "frappe",
+  "charts": [],
+  "content": "[{\"id\":\"sR-UFcO7II\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Import Data\",\"col\":3}},{\"id\":\"IkcVmgWb3z\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ToDo\",\"col\":3}},{\"id\":\"6wir-jZFRE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"File\",\"col\":3}},{\"id\":\"45a1jzQkTm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Assignment Rule\",\"col\":3}},{\"id\":\"EgtURZsoiF\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"0yceBIfhHM\",\"type\":\"card\",\"data\":{\"card_name\":\"Data\",\"col\":4}},{\"id\":\"42WbBA9rpj\",\"type\":\"card\",\"data\":{\"card_name\":\"Tools\",\"col\":4}},{\"id\":\"wE9n7TIrAc\",\"type\":\"card\",\"data\":{\"card_name\":\"Alerts and Notifications\",\"col\":4}},{\"id\":\"7_U7_xCOos\",\"type\":\"card\",\"data\":{\"card_name\":\"Email\",\"col\":4}},{\"id\":\"3imoh2oqsJ\",\"type\":\"card\",\"data\":{\"card_name\":\"Printing\",\"col\":4}},{\"id\":\"SlYKJZj5r3\",\"type\":\"card\",\"data\":{\"card_name\":\"Automation\",\"col\":4}},{\"id\":\"O7jrc2YQTN\",\"type\":\"card\",\"data\":{\"card_name\":\"Newsletter\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "tool",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Tools",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Automation",
+    "link_count": 3,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Assignment Rule",
+    "link_count": 0,
+    "link_to": "Assignment Rule",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Milestone",
+    "link_count": 0,
+    "link_to": "Milestone",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Auto Repeat",
+    "link_count": 0,
+    "link_to": "Auto Repeat",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Tools",
+    "link_count": 4,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "To Do",
+    "link_count": 0,
+    "link_to": "ToDo",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Calendar",
+    "link_count": 0,
+    "link_to": "Event",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Note",
+    "link_count": 0,
+    "link_to": "Note",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Files",
+    "link_count": 0,
+    "link_to": "File",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Email",
+    "link_count": 3,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Email Account",
+    "link_count": 0,
+    "link_to": "Email Account",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Email Domain",
+    "link_count": 0,
+    "link_to": "Email Domain",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Email Template",
+    "link_count": 0,
+    "link_to": "Email Template",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Newsletter",
+    "link_count": 2,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Newsletter",
+    "link_count": 0,
+    "link_to": "Newsletter",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Email Group",
+    "link_count": 0,
+    "link_to": "Email Group",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Printing",
+    "link_count": 4,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Print Format Builder",
+    "link_count": 0,
+    "link_to": "print-format-builder",
+    "link_type": "Page",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Print Format Builder (New)",
+    "link_count": 0,
+    "link_to": "print-format-builder-beta",
+    "link_type": "Page",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Print Settings",
+    "link_count": 0,
+    "link_to": "Print Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Print Heading",
+    "link_count": 0,
+    "link_to": "Print Heading",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Alerts and Notifications",
+    "link_count": 3,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Notification",
+    "link_count": 0,
+    "link_to": "Notification",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Auto Email Report",
+    "link_count": 0,
+    "link_to": "Auto Email Report",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Notification Settings",
+    "link_count": 0,
+    "link_to": "Notification Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": "Manage your data",
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Data",
+    "link_count": 5,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Import Data",
+    "link_count": 0,
+    "link_to": "Data Import",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Export Data",
+    "link_count": 0,
+    "link_to": "Data Export",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Bulk Update",
+    "link_count": 0,
+    "link_to": "Bulk Update",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Download Backups",
+    "link_count": 0,
+    "link_to": "backups",
+    "link_type": "Page",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Deleted Documents",
+    "link_count": 0,
+    "link_to": "Deleted Document",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   }
+  ],
+  "modified": "2025-02-26 14:09:38.015290",
+  "module": "Automation",
+  "name": "Tools",
+  "number_cards": [],
+  "parent_page": null,
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 1.0,
+  "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Import Data",
+    "link_to": "Data Import",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "File",
+    "link_to": "File",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Assignment Rule",
+    "link_to": "Assignment Rule",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Tools",
+  "type": "Workspace"
+ },
+ {
+  "app": "frappe",
+  "charts": [],
+  "content": "[{\"id\":\"yq1JKyNTFg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Web Page\",\"col\":3}},{\"id\":\"5GuZo0uP_K\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Web Form\",\"col\":3}},{\"id\":\"292vrD2W3o\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Blog Post\",\"col\":3}},{\"id\":\"xAkA6ItB7O\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"k8RquSngSk\",\"type\":\"card\",\"data\":{\"card_name\":\"Blog\",\"col\":4}},{\"id\":\"qEHBG-BEBI\",\"type\":\"card\",\"data\":{\"card_name\":\"Web Site\",\"col\":4}},{\"id\":\"oUox7d-8lQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Knowledge Base\",\"col\":4}},{\"id\":\"96xAe0QVaV\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZvrzvEoYtc\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"FVMFcgsiyK\",\"type\":\"card\",\"data\":{\"card_name\":\"Tracking\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "website",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Website",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Settings",
+    "link_count": 0,
+    "link_to": "Website Settings",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Theme",
+    "link_count": 0,
+    "link_to": "Website Theme",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Script",
+    "link_count": 0,
+    "link_to": "Website Script",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "About Us Settings",
+    "link_count": 0,
+    "link_to": "About Us Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Contact Us Settings",
+    "link_count": 0,
+    "link_to": "Contact Us Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Blog",
+    "link_count": 0,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Blog Post",
+    "link_count": 0,
+    "link_to": "Blog Post",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Blogger",
+    "link_count": 0,
+    "link_to": "Blogger",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Blog Category",
+    "link_count": 0,
+    "link_to": "Blog Category",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": "project",
+    "is_query_report": 0,
+    "label": "Knowledge Base",
+    "link_count": 0,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Help Category",
+    "link_count": 0,
+    "link_to": "Help Category",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Help Article",
+    "link_count": 0,
+    "link_to": "Help Article",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Settings",
+    "link_count": 4,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Settings",
+    "link_count": 0,
+    "link_to": "Website Settings",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Theme",
+    "link_count": 0,
+    "link_to": "Website Theme",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Script",
+    "link_count": 0,
+    "link_to": "Website Script",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Portal Settings",
+    "link_count": 0,
+    "link_to": "Portal Settings",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Web Site",
+    "link_count": 5,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Web Page",
+    "link_count": 0,
+    "link_to": "Web Page",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Web Form",
+    "link_count": 0,
+    "link_to": "Web Form",
+    "link_type": "DocType",
+    "onboard": 1,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Sidebar",
+    "link_count": 0,
+    "link_to": "Website Sidebar",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Slideshow",
+    "link_count": 0,
+    "link_to": "Website Slideshow",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Website Route Meta",
+    "link_count": 0,
+    "link_to": "Website Route Meta",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Tracking",
+    "link_count": 4,
+    "link_to": null,
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Card Break"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "UTM Source",
+    "link_count": 0,
+    "link_to": "UTM Source",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "UTM Campaign",
+    "link_count": 0,
+    "link_to": "UTM Campaign",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "UTM Medium",
+    "link_count": 0,
+    "link_to": "UTM Medium",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   },
+   {
+    "dependencies": null,
+    "description": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 1,
+    "label": "Website Analytics",
+    "link_count": 0,
+    "link_to": "Website Analytics",
+    "link_type": "Report",
+    "onboard": 0,
+    "only_for": null,
+    "report_ref_doctype": null,
+    "type": "Link"
+   }
+  ],
+  "modified": "2025-02-26 14:09:38.349819",
+  "module": "Website",
+  "name": "Website",
+  "number_cards": [],
+  "parent_page": null,
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   }
+  ],
+  "sequence_id": 14.0,
+  "shortcuts": [
+   {
+    "color": "Green",
+    "doc_view": "",
+    "format": "{} Published",
+    "icon": null,
+    "kanban_board": null,
+    "label": "Blog Post",
+    "link_to": "Blog Post",
+    "restrict_to_domain": null,
+    "stats_filter": "{\"published\":\"1\"}",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": "Green",
+    "doc_view": "",
+    "format": "{} Published",
+    "icon": null,
+    "kanban_board": null,
+    "label": "Web Page",
+    "link_to": "Web Page",
+    "restrict_to_domain": null,
+    "stats_filter": "{ \"published\": 1 }",
+    "type": "DocType",
+    "url": null
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Web Form",
+    "link_to": "Web Form",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Website",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"FaMsIGj8LX\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Tasks</span>\",\"col\":12}},{\"id\":\"Ro575glwqb\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Tasks\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "project-1",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Tasks Workspace",
+  "link_to": "ToDo",
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-06 14:53:40.422893",
+  "module": "Mgrant",
+  "name": "Tasks Workspace",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "NGO Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 12.0,
+  "shortcuts": [],
+  "title": "Tasks Workspace",
+  "type": "Link"
+ },
+ {
+  "app": "mgrant",
+  "charts": [
+   {
+    "chart_name": "DISTRIBUTION OF NGOs BY PROGRAMME",
+    "label": "DISTRIBUTION OF NGOs BY PROGRAMME"
+   }
+  ],
+  "content": "[{\"id\":\"o7lnZ-KPF7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total NGOs\",\"col\":4}},{\"id\":\"BaCxSXptts\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Vendors\",\"col\":4}},{\"id\":\"uJ2B45UI5y\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2Cm3CPKQo1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL BLACKLISTED NGOs\",\"col\":4}},{\"id\":\"0uV0QkZbK1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"NGOs - DD NOT CONDUCTED\",\"col\":4}},{\"id\":\"N6baIn985I\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"NGOs - DD EXPIRING IN 3 MONTHS\",\"col\":4}},{\"id\":\"BRWJjMc0hU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"NGOs - DD EXPIRED\",\"col\":4}},{\"id\":\"jv_LrHQ4V1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DISTRIBUTION OF NGOs BY PROGRAMME\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": "accounting",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "NGO Workspace",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-06 14:53:20.285860",
+  "module": "mGrant - NGO",
+  "name": "NGO Workspace",
+  "number_cards": [
+   {
+    "label": "TOTAL BLACKLISTED NGOs",
+    "number_card_name": "TOTAL BLACKLISTED NGOs"
+   },
+   {
+    "label": "NGOs - DD NOT CONDUCTED",
+    "number_card_name": "NGOs DD NOT CONDUCTED"
+   },
+   {
+    "label": "NGOs - DD EXPIRED",
+    "number_card_name": "NGOs DD EXPIRED"
+   },
+   {
+    "label": "NGOs - DD EXPIRING IN 3 MONTHS",
+    "number_card_name": "DD EXPIRING IN 3 MONTHS"
+   },
+   {
+    "label": "Total NGOs",
+    "number_card_name": "NGOs"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 11.0,
+  "shortcuts": [],
+  "title": "NGO Workspace",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"pKsNBf7i7x\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Vendors\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "grid",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Vendor Workspace",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-06 14:53:07.071604",
+  "module": "Mgrant",
+  "name": "Vendor Workspace",
+  "number_cards": [
+   {
+    "label": "Vendors",
+    "number_card_name": "Vendors"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 10.0,
+  "shortcuts": [],
+  "title": "Vendor Workspace",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [],
+  "content": "[{\"id\":\"Khe94KClKY\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL DDs\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "grid",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Due Diligence Workspace",
+  "link_to": "",
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-06 14:52:30.621759",
+  "module": "Mgrant",
+  "name": "Due Diligence Workspace",
+  "number_cards": [
+   {
+    "label": "TOTAL DDs",
+    "number_card_name": "TOTAL DDs"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "System Manager"
+   },
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "NGO Compliance Auditor"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 15.0,
+  "shortcuts": [],
+  "title": "Due Diligence Workspace",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [
+   {
+    "chart_name": "FUNDS REQUEST BY STATUS",
+    "label": "FUNDS REQUEST BY STATUS"
+   },
+   {
+    "chart_name": "DISBURSEMENT ANALYSIS",
+    "label": "DISBURSEMENT ANALYSIS"
+   },
+   {
+    "chart_name": "FUND REQUESTS OVERVIEW BY NGO",
+    "label": "FUND REQUESTS OVERVIEW BY NGO"
+   },
+   {
+    "chart_name": "FUCs SUBMISSION TILL DATE BY NGOs",
+    "label": "FUCs SUBMISSION TILL DATE BY NGOs"
+   },
+   {
+    "chart_name": "FUND AT RISK BY NGO",
+    "label": "FUNDS AT RISK BY NGO"
+   }
+  ],
+  "content": "[{\"id\":\"XnTiV1U93I\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL FUNDS COMMITTED\",\"col\":4}},{\"id\":\"LUdG_r8R-l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL DISBURSED FUNDS\",\"col\":4}},{\"id\":\"8Z5QmB3Ztf\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL UTILISED FUNDS\",\"col\":4}},{\"id\":\"81Nd4EebDc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"UNUTILISED DISBURSED FUNDS\",\"col\":4}},{\"id\":\"rQ4D00MYK4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"FUND UTILISATION RATE\",\"col\":4}},{\"id\":\"MdVb1OTnpj\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"AVERAGE DISBURSEMENT CYCLE (IN DAYS)\",\"col\":4}},{\"id\":\"cT5mfH0YA7\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DISBURSEMENT ANALYSIS\",\"col\":12}},{\"id\":\"2U9LTulDgg\",\"type\":\"chart\",\"data\":{\"chart_name\":\"FUNDS REQUEST BY STATUS\",\"col\":12}},{\"id\":\"dpGyZkwVJH\",\"type\":\"chart\",\"data\":{\"chart_name\":\"FUND REQUESTS OVERVIEW BY NGO\",\"col\":12}},{\"id\":\"T11EQppfvW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"FUCs SUBMISSION TILL DATE BY NGOs\",\"col\":12}},{\"id\":\"_3WQ8PKdra\",\"type\":\"chart\",\"data\":{\"chart_name\":\"FUNDS AT RISK BY NGO\",\"col\":12}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "dashboard-list",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Finance",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-28 09:54:10.314394",
+  "module": null,
+  "name": "Finance",
+  "number_cards": [
+   {
+    "label": "TOTAL FUNDS COMMITTED",
+    "number_card_name": "TOTAL FUNDS COMMITTED"
+   },
+   {
+    "label": "AVERAGE DISBURSEMENT CYCLE (IN DAYS)",
+    "number_card_name": "AVERAGE DISBURSEMENT CYCLE (IN DAYS)"
+   },
+   {
+    "label": "TOTAL DISBURSED FUNDS",
+    "number_card_name": "TOTAL DISBURSED"
+   },
+   {
+    "label": "TOTAL UTILISED FUNDS",
+    "number_card_name": "TOTAL UTILISED FUNDS"
+   },
+   {
+    "label": "UNUTILISED DISBURSED FUNDS",
+    "number_card_name": "UNUTILISED DISBURSED FUNDS"
+   },
+   {
+    "label": "FUND UTILISATION RATE",
+    "number_card_name": "UTILIZATION RATE"
+   }
+  ],
+  "parent_page": "Dashboard",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ],
+  "sequence_id": 23.0,
+  "shortcuts": [],
+  "title": "Finance",
+  "type": "Workspace"
+ },
+ {
+  "app": "mgrant",
+  "charts": [
+   {
+    "chart_name": "GRANT STATUS DISTRIBUTION",
+    "label": "GRANT STATUS DISTRIBUTION"
+   },
+   {
+    "chart_name": "OVERDUE REPORTS BY NGO",
+    "label": "OVERDUE REPORTS BY NGO"
+   },
+   {
+    "chart_name": "DEMOGRAPHY GROUPS REACHED",
+    "label": "DEMOGRAPHY GROUPS REACHED"
+   },
+   {
+    "chart_name": "COST PER PERSON REACHED BY NGO",
+    "label": "COST PER PERSON REACHED BY NGO"
+   },
+   {
+    "chart_name": "EXPIRING GRANTS",
+    "label": "EXPIRING GRANTS"
+   },
+   {
+    "chart_name": "DELAYED DISBURSEMENTS BY NGO",
+    "label": "DELAYED DISBURSEMENTS BY NGO"
+   },
+   {
+    "chart_name": "BUDGET VS ACTUAL BY CATEGORY",
+    "label": "BUDGET VS ACTUAL BY CATEGORY"
+   },
+   {
+    "chart_name": "IMPACT VS INVESTMENT BY NGO",
+    "label": "IMPACT VS INVESTMENT BY NGO"
+   },
+   {
+    "chart_name": "MILESTONE COMPLETION STATUS",
+    "label": "MILESTONE COMPLETION STATUS"
+   },
+   {
+    "chart_name": "GRANTS BY PROGRAM AREA OR THEME",
+    "label": "GRANTS BY PROGRAM AREA OR THEME"
+   },
+   {
+    "chart_name": "FUND UTILISATION BY GRANTS",
+    "label": "FUND UTILISATION BY GRANTS"
+   },
+   {
+    "chart_name": "OVERDUE MILESTONES BY NGO",
+    "label": "OVERDUE MILESTONES BY NGO"
+   }
+  ],
+  "content": "[{\"id\":\"XP_SKRatJD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Key Stats</span>\",\"col\":12}},{\"id\":\"I5DM707CdF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL ACTIVE GRANTS\",\"col\":4}},{\"id\":\"GKpu3HCENX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL FUNDS COMMITTED\",\"col\":4}},{\"id\":\"FWmfZ8Zxff\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL DISBURSED\",\"col\":4}},{\"id\":\"69UdAok2h9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"UTILIZATION RATE\",\"col\":4}},{\"id\":\"w14uzslxP0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"UPCOMING MILESTONES\",\"col\":4}},{\"id\":\"mZqUdqYI7q\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"UPCOMING TRANCHES\",\"col\":4}},{\"id\":\"n3oZhx4Zfc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"REPORTING COMPLIANCE STATUS\",\"col\":4}},{\"id\":\"3D0cNll90Y\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"STATES REACHED\",\"col\":4}},{\"id\":\"gIO20nm3f2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"DISTRICTS REACHED\",\"col\":4}},{\"id\":\"ldgjRn1-BP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DEMOGRAPHY GROUPS REACHED\",\"col\":12}},{\"id\":\"2N_g8rtoej\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Insights</span>\",\"col\":12}},{\"id\":\"lotgbPAZh1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"AVERAGE DISBURSEMENT CYCLE (IN DAYS)\",\"col\":4}},{\"id\":\"NyJh80lwni\",\"type\":\"chart\",\"data\":{\"chart_name\":\"COST PER PERSON REACHED BY NGO\",\"col\":12}},{\"id\":\"a01xeATu-S\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Details<b></b></span>\",\"col\":12}},{\"id\":\"gX8sITaYuW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"GRANT STATUS DISTRIBUTION\",\"col\":12}},{\"id\":\"u5YIKsp5RO\",\"type\":\"chart\",\"data\":{\"chart_name\":\"BUDGET VS ACTUAL BY CATEGORY\",\"col\":12}},{\"id\":\"TolnLJkO89\",\"type\":\"chart\",\"data\":{\"chart_name\":\"IMPACT VS INVESTMENT BY NGO\",\"col\":12}},{\"id\":\"mbe4xUoDJb\",\"type\":\"chart\",\"data\":{\"chart_name\":\"MILESTONE COMPLETION STATUS\",\"col\":12}},{\"id\":\"s0WJ9QSCYs\",\"type\":\"chart\",\"data\":{\"chart_name\":\"GRANTS BY PROGRAM AREA OR THEME\",\"col\":12}},{\"id\":\"lizXX0-mSJ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"FUND UTILISATION BY GRANTS\",\"col\":12}},{\"id\":\"cWEt85cKi1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"OVERDUE MILESTONES BY NGO\",\"col\":12}},{\"id\":\"BGrTC3cW29\",\"type\":\"chart\",\"data\":{\"chart_name\":\"OVERDUE REPORTS BY NGO\",\"col\":12}},{\"id\":\"8VDmjI_gAr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DELAYED DISBURSEMENTS BY NGO\",\"col\":12}},{\"id\":\"Op7t2J8-jk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"EXPIRING GRANTS\",\"col\":12}},{\"id\":\"SGbVQzArXA\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"State-wise Grant\",\"col\":12}}]",
+  "custom_blocks": [
+   {
+    "custom_block_name": "State-wise Grant",
+    "label": "State-wise Grant"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "external_link": null,
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "dashboard-list",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Dashboard",
+  "link_to": null,
+  "link_type": "DocType",
+  "links": [],
+  "modified": "2025-04-24 14:12:47.957345",
+  "module": "Mgrant",
+  "name": "Dashboard",
+  "number_cards": [
+   {
+    "label": "UPCOMING TRANCHES",
+    "number_card_name": "UPCOMING TRANCHES"
+   },
+   {
+    "label": "REPORTING COMPLIANCE STATUS",
+    "number_card_name": "REPORTING COMPLIANCE STATUS"
+   },
+   {
+    "label": "TOTAL DISBURSED",
+    "number_card_name": "TOTAL DISBURSED"
+   },
+   {
+    "label": "TOTAL ACTIVE GRANTS",
+    "number_card_name": "TOTAL ACTIVE GRANTS"
+   },
+   {
+    "label": "UPCOMING MILESTONES",
+    "number_card_name": "UPCOMING MILESTONES"
+   },
+   {
+    "label": "UTILIZATION RATE",
+    "number_card_name": "UTILIZATION RATE"
+   },
+   {
+    "label": "TOTAL FUNDS COMMITTED",
+    "number_card_name": "TOTAL FUNDS COMMITTED"
+   },
+   {
+    "label": "AVERAGE DISBURSEMENT CYCLE (IN DAYS)",
+    "number_card_name": "AVERAGE DISBURSEMENT CYCLE (IN DAYS)"
+   },
+   {
+    "label": "DISTRICTS REACHED",
+    "number_card_name": "DISTRICTS REACHED"
+   },
+   {
+    "label": "STATES REACHED",
+    "number_card_name": "STATES REACHED"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "role": "Administrator"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   },
+   {
+    "role": "mGrant Partnerships"
+   }
+  ],
+  "sequence_id": 13.0,
+  "shortcuts": [],
+  "title": "Dashboard",
+  "type": "Workspace"
+ }
+]
