@@ -8,30 +8,30 @@ app_license = "mit"
 # Apps
 # ------------------
 fixtures = [
-     {
-        "dt": "Report",
-        "filters": {
-                    "is_standard": "No"
-                }
-    },
+    #  {
+    #     "dt": "Report",
+    #     "filters": {
+    #                 "is_standard": "No"
+    #             }
+    # },
     # {
     #     "dt": "Role",
     #     # "filters": {"role_name":["IN",["L1","L2","L3","","Donor Observer","NGO SPOC","Sr Grant Manager","Grant Manager","Finance Manager","Director","COO","Finance Team","Admin & Support Manager"]]}
     # },
-     {
-         "dt": "SVADatatable Configuration",
-        #  "filters": [
-        #      ["parent_doctype","IN",['Project','Proposal','Grant',"NGO"]]
-        #  ]
-     },
-    "SVAWorkspace Configuration",
-    "Navbar Settings",
+    #  {
+    #      "dt": "SVADatatable Configuration",
+    #     #  "filters": [
+    #     #      ["parent_doctype","IN",['Project','Proposal','Grant',"NGO"]]
+    #     #  ]
+    #  },
+    # "SVAWorkspace Configuration",
+    # "Navbar Settings",
     # "Role Profile",
     # "Custom DocPerm",
-    "Workflow",
-    "Workflow State",
-    "Workflow Action Master",
-    "Workspace",
+    # "Workflow",
+    # "Workflow State",
+    # "Workflow Action Master",
+    # "Workspace",
     # {
     #     "dt": "Workflow",
     #     "filters": [
@@ -46,20 +46,20 @@ fixtures = [
     #     "dt":"Property Setter",
         # "filters": {"doc_type":["IN",["Proposal","RFP","KPIs","Co Funding Child","Grant","Demography Group Child","NGO","NGO Due Diligence"]]}
     # },
-    {
-        "dt":"Custom Field",
-        # "filters": {"dt":["IN",["Proposal","RFP","KPIs","Co Funding Child","Grant","Demography Group Child","NGO","NGO Due Diligence"]]}
-    },
+    # {
+    #     "dt":"Custom Field",
+    #     # "filters": {"dt":["IN",["Proposal","RFP","KPIs","Co Funding Child","Grant","Demography Group Child","NGO","NGO Due Diligence"]]}
+    # },
     # {
     #     "dt": "Print Format",
     #     # "filters": [['name', 'IN',['LoA Template','MKHF MoU']]],
     # },
-    {
-        "dt": "Dashboard Chart",
-        "filters":{
-            'is_standard': 0,
-        }
-    }
+    # {
+    #     "dt": "Dashboard Chart",
+    #     "filters":{
+    #         'is_standard': 0,
+    #     }
+    # }
     #     # "filters": [['name', 'IN',['LoA Template','MKHF MoU']]],
     # },
     # {
