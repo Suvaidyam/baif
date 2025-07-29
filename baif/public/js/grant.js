@@ -44,6 +44,16 @@ lfas_after_form_render = (frm, dt, type) => {
     })
 }
 
+const get_kpi_name = async (dt,field) => {
+    let kpi = dt.form_dialog.get_value('kpi');
+    if (kpi) {
+        let kpi_name = await frappe.db.get_value('KPIs', kpi, 'kpi_name');
+        if (kpi_name?.message?.kpi_name) {
+            dt.form_dialog.set_value(field, kpi_name?.message?.kpi_name)
+        }
+    }
+}
+
 frappe.ui.form.on("Grant", {
     setup(frm) {
         frm['dt_events'] = {
@@ -63,6 +73,17 @@ frappe.ui.form.on("Grant", {
                     dt.form_dialog.set_df_property('planning_table', 'cannot_add_rows', 1)
                     dt.form_dialog.set_df_property('planning_table', 'cannot_delete_rows', 1)
                 },
+                frequency: function (dt, mode) {
+                    handleFrequencyField(dt, dt.form_dialog);
+                },
+                state: (dt, mode) => {
+                    dt.form_dialog.set_value("district", '')
+                },
+                kpi: function (dt, mode) {
+                    if (mode == 'create') {
+                        get_kpi_name(dt, 'output_name');
+                    }
+                }
             },
             "Outcome": {
                 after_render: function (dt, mode) {
@@ -83,6 +104,11 @@ frappe.ui.form.on("Grant", {
                 },
                 state: (dt, mode) => {
                     dt.form_dialog.set_value("district", '')
+                },
+                kpi: function (dt, mode) {
+                    if (mode == 'create') {
+                        get_kpi_name(dt, 'outcome_name');
+                    }
                 }
             },
             "Impact": {
@@ -104,6 +130,11 @@ frappe.ui.form.on("Grant", {
                 },
                 state: (dt, mode) => {
                     dt.form_dialog.set_value("district", '')
+                },
+                kpi: function (dt, mode) {
+                    if (mode == 'create') {
+                        get_kpi_name(dt, 'impact_name');
+                    }
                 }
             },
         }
