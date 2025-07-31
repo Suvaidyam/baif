@@ -14,42 +14,42 @@ fixtures = [
     #                 "is_standard": "No"
     #             }
     # },
-    {
-        "dt": "Role",
-        # "filters": {"role_name":["IN",["L1","L2","L3","","Donor Observer","NGO SPOC","Sr Grant Manager","Grant Manager","Finance Manager","Director","COO","Finance Team","Admin & Support Manager"]]}
-    },
-     {
-         "dt": "SVADatatable Configuration",
-        #  "filters": [
-        #      ["parent_doctype","IN",['Project','Proposal','Grant',"NGO"]]
-        #  ]
-     },
-    "SVAWorkspace Configuration",
+    # {
+    #     "dt": "Role",
+    #     # "filters": {"role_name":["IN",["L1","L2","L3","","Donor Observer","NGO SPOC","Sr Grant Manager","Grant Manager","Finance Manager","Director","COO","Finance Team","Admin & Support Manager"]]}
+    # },
+    #  {
+    #      "dt": "SVADatatable Configuration",
+    #     #  "filters": [
+    #     #      ["parent_doctype","IN",['Project','Proposal','Grant',"NGO"]]
+    #     #  ]
+    #  },
+    # "SVAWorkspace Configuration",
     # "Navbar Settings",
-    "Role Profile",
-    "Custom DocPerm",
-    "Workflow",
-    "Workflow State",
-    "Workflow Action Master",
-    "Workspace",
+    # "Role Profile",
+    # "Custom DocPerm",
+    # "Workflow",
+    # "Workflow State",
+    # "Workflow Action Master",
+    # "Workspace",
     # {
     #     "dt": "Workflow",
     #     "filters": [
     #         ["document_type","IN",['Project proposal','Quarterly Utilisation Report','Pre-Grant Assessment',"Periodic Impact Achievement","Periodic Input Achievement","Periodic Output Achievement","Periodic Outcome Achievement"]]
     #     ]
     # },
-    {
-        "dt":"DocType",
-        "filters": {"custom":1}
-    },
-    {
-        "dt":"Property Setter",
+    # {
+    #     "dt":"DocType",
+    #     "filters": {"custom":1}
+    # },
+    # {
+    #     "dt":"Property Setter",
         # "filters": {"doc_type":["IN",["Proposal","RFP","KPIs","Co Funding Child","Grant","Demography Group Child","NGO","NGO Due Diligence"]]}
-    },
-    {
-        "dt":"Custom Field",
-        # "filters": {"dt":["IN",["Proposal","RFP","KPIs","Co Funding Child","Grant","Demography Group Child","NGO","NGO Due Diligence"]]}
-    },
+    # },
+    # {
+    #     "dt":"Custom Field",
+    #     # "filters": {"dt":["IN",["Proposal","RFP","KPIs","Co Funding Child","Grant","Demography Group Child","NGO","NGO Due Diligence"]]}
+    # },
     # {
     #     "dt": "Print Format",
     #     # "filters": [['name', 'IN',['LoA Template','MKHF MoU']]],
@@ -62,14 +62,14 @@ fixtures = [
     # }
     #     # "filters": [['name', 'IN',['LoA Template','MKHF MoU']]],
     # },
-    {
-        "dt": "Email Template",
-        # "filters": [['name', 'IN',['Reminder RFP - 7 Days to Deadline','URGENT RFP - Deadline Tomorrow!']]],
-    },
-    {
-        "dt": "Notification",
-        # "filters": [['name', 'IN',['Reminder RFP - 7 Days to Deadline','URGENT RFP - Deadline Tomorrow!']]],
-    }
+    # {
+    #     "dt": "Email Template",
+    #     # "filters": [['name', 'IN',['Reminder RFP - 7 Days to Deadline','URGENT RFP - Deadline Tomorrow!']]],
+    # },
+    # {
+    #     "dt": "Notification",
+    #     # "filters": [['name', 'IN',['Reminder RFP - 7 Days to Deadline','URGENT RFP - Deadline Tomorrow!']]],
+    # }
 ]
 
 # required_apps = []
