@@ -86,6 +86,7 @@ frappe.ui.form.on("Grant", {
                 }
             },
             "Outcome": {
+                ...frm['dt_events']?.['Outcome'],
                 after_render: function (dt, mode) {
                     lfas_after_form_render(frm, dt, "Outcome");
                     if (mode == 'create') {
@@ -112,6 +113,7 @@ frappe.ui.form.on("Grant", {
                 }
             },
             "Impact": {
+                ...frm['dt_events']?.['Impact'],
                 after_render: function (dt, mode) {
                     lfas_after_form_render(frm, dt, "Impact");
                     if (mode == 'create') {
@@ -137,6 +139,35 @@ frappe.ui.form.on("Grant", {
                     }
                 }
             },
+            "Budget Transaction": {
+                ...frm['dt_events']?.['Budget Transaction'],
+                after_render: function (dt, mode) {
+                    let grant = dt.form_dialog.get_value('grant');
+                    if (grant) {
+                        dt.form_dialog.set_query('budget_plan', () => {
+                            return {
+                                filters: {
+                                    'grant': ['=', grant]
+                                }
+                            }
+                        })
+                    }
+                },
+                custom_budget_head: function (dt, mode) {
+                    let budget_head = dt.form_dialog.get_value('custom_budget_head');
+                    let grant = dt.form_dialog.get_value('grant');
+                    if (budget_head) {
+                        dt.form_dialog.set_query('budget_plan', () => {
+                            return {
+                                filters: {
+                                    'budget_head': ['=', budget_head],
+                                    'grant': ['=', grant]
+                                }
+                            }
+                        })
+                    }
+                }
+            }
         }
     }
 })
