@@ -165,6 +165,12 @@ frappe.ui.form.on("Grant", {
                                 }
                             }
                         })
+                    } else {
+                        dt.form_dialog.set_query('budget_plan', () => {
+                            return {
+                                filters: { 'grant': ['=', grant] }
+                            }
+                        })
                     }
                 }
             }
