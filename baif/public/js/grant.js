@@ -176,7 +176,7 @@ frappe.ui.form.on("Grant", {
                             frequency: 'Monthly',
                         },
                         callback: function (r) {
-                            dt.form_dialog.set_df_property('quarter', 'options', r.message.quarter_options)
+                            dt.form_dialog.set_df_property('quarter', 'options', r.message.period_options)
                         }
                     })
                     frappe.call({
