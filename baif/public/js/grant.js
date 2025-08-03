@@ -222,7 +222,7 @@ frappe.ui.form.on("Grant", {
                 after_render: function (dt, mode) {
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
-                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_output_achievement.get_options',"Monthly")
+                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_output_achievement.get_options',"Quarterly")
                     disable_lfas_used_period_options(dt, 'mgrant.apis.periodic_output_achievement.use_option')
                     if (mode != 'create') {
                         dt.form_dialog.set_df_property('period', 'hidden', 1)
@@ -230,7 +230,7 @@ frappe.ui.form.on("Grant", {
                 },
                 period: async function (dt, mode) {
                     if (mode == 'create') {
-                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_output_achievement.get_periodic_achievement_report',"Monthly")
+                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_output_achievement.get_periodic_achievement_report',"Quarterly")
                     }
                 },
             },
@@ -239,7 +239,7 @@ frappe.ui.form.on("Grant", {
                 after_render: function (dt, mode) {
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
-                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_outcome_achievement.get_options',"Monthly")
+                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_outcome_achievement.get_options',"Quarterly")
                     disable_lfas_used_period_options(dt, 'mgrant.apis.periodic_outcome_achievement.use_option')
                     if (mode != 'create') {
                         dt.form_dialog.set_df_property('period', 'hidden', 1)
@@ -247,7 +247,7 @@ frappe.ui.form.on("Grant", {
                 },
                 period: async function (dt, mode) {
                     if (mode == 'create') {
-                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_outcome_achievement.get_periodic_achievement_report',"Monthly")
+                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_outcome_achievement.get_periodic_achievement_report',"Quarterly")
                     }
                 },
             },
@@ -256,7 +256,7 @@ frappe.ui.form.on("Grant", {
                 after_render: function (dt, mode) {
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
-                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_impact_achievement.get_options',"Monthly")
+                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_impact_achievement.get_options',"Quarterly")
                     disable_lfas_used_period_options(dt, 'mgrant.apis.periodic_impact_achievement.use_option')
                     if (mode != 'create') {
                         dt.form_dialog.set_df_property('period', 'hidden', 1)
@@ -264,7 +264,7 @@ frappe.ui.form.on("Grant", {
                 },
                 period: async function (dt, mode) {
                     if (mode == 'create') {
-                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_impact_achievement.get_periodic_achievement_report',"Monthly")
+                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_impact_achievement.get_periodic_achievement_report',"Quarterly")
                     }
                 },
             }
