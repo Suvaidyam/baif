@@ -1,49 +1,3 @@
-lfas_after_form_render = (frm, dt, type) => {
-    dt.form_dialog.set_query('state', () => {
-        if (frm.doc.states.length) {
-            return {
-                filters: { name: ['in', frm.doc.states.map(item => item.state)] }
-            }
-        }
-    });
-    dt.form_dialog.set_query('district', () => {
-        let state = dt.form_dialog.get_value('state');
-        if (frm.doc.districts.length) {
-            return {
-                filters: { name: ['in', frm.doc.districts.map(item => item.district)], state: ['=', state ? state : 'Please select state'] }
-            }
-        } else {
-            return {
-                filters: { state: ['=', state ? state : 'Please select state'] }
-            }
-        }
-    });
-    dt.form_dialog.set_query('kpi', () => {
-        if (frm.doc.theme) {
-            return {
-                filters: {
-                    'theme': ['=', frm.doc.theme],
-                    'kpi_type': ['=', type]
-                }
-            }
-        } else if (frm.doc.custom_themes && frm.doc.custom_themes.length){
-            return {
-                filters: {
-                    'theme': ['in', frm.doc.custom_themes.map(item => item.theme)],
-                    'kpi_type': ['=', type]
-                }
-            }
-        }
-         else {
-            return {
-                filters: {
-                    'kpi_type': ['=', type]
-                }
-            }
-        }
-    })
-}
-
 const get_kpi_name = async (dt,field) => {
     let kpi = dt.form_dialog.get_value('kpi');
     if (kpi) {
@@ -63,10 +17,6 @@ frappe.ui.form.on("Grant", {
                 after_render: function (dt, mode) {
                     lfas_after_form_render(frm, dt, "Output");
                     if (mode == 'create') {
-                        if (frm?.doc?.frequency) {
-                            dt.form_dialog.set_value('frequency', frm.doc.frequency)
-                            dt.form_dialog.set_df_property('frequency', 'read_only', 1)
-                        }
                         handleFrequencyField(dt, dt.form_dialog);
                         dt.form_dialog.set_value('ngo', frm.doc.ngo)
                     }
@@ -90,10 +40,6 @@ frappe.ui.form.on("Grant", {
                 after_render: function (dt, mode) {
                     lfas_after_form_render(frm, dt, "Outcome");
                     if (mode == 'create') {
-                        if (frm?.doc?.frequency) {
-                            dt.form_dialog.set_value('frequency', frm.doc.frequency)
-                            dt.form_dialog.set_df_property('frequency', 'read_only', 1)
-                        }
                         handleFrequencyField(dt, dt.form_dialog);
                         dt.form_dialog.set_value('ngo', frm.doc.ngo)
                     }
@@ -117,10 +63,6 @@ frappe.ui.form.on("Grant", {
                 after_render: function (dt, mode) {
                     lfas_after_form_render(frm, dt, "Impact");
                     if (mode == 'create') {
-                        if (frm?.doc?.frequency) {
-                            dt.form_dialog.set_value('frequency', frm.doc.frequency)
-                            dt.form_dialog.set_df_property('frequency', 'read_only', 1)
-                        }
                         handleFrequencyField(dt, dt.form_dialog);
                         dt.form_dialog.set_value('ngo', frm.doc.ngo)
                     }
@@ -173,6 +115,158 @@ frappe.ui.form.on("Grant", {
                         })
                     }
                 }
+            },
+            "Budget Plan and Utilisation": {
+                ...frm['dt_events']?.['Budget Plan and Utilisation'],
+                after_render: function (dt, mode) {
+                    if (mode == 'create') {
+                        handleFrequencyField(dt, dt.form_dialog);
+                        dt.form_dialog.set_value('ngo', frm.doc.ngo)
+                        if (frm.doc?.other_fund_sources?.length) {
+                            dt.form_dialog.set_query('other_fund_source', () => {
+                                return {
+                                    filters: {
+                                        name: ['in', frm.doc.other_fund_sources.map(item => item.fund_source)]
+                                    }
+                                }
+                            })
+                        } else {
+                            dt.form_dialog.set_query('other_fund_source', () => {
+                                return {
+                                    filters: {
+                                        name: ['=', 'No Other Fund Sources selected for this grant.']
+                                    }
+                                }
+                            })
+                        }
+                        if (dt.form_dialog.get_value('budget_head')) {
+                            dt.form_dialog.set_query('sub_budget_head', () => {
+                                return {
+                                    filters: {
+                                        name: ['=', dt.form_dialog.get_value('budget_head')]
+                                    }
+                                }
+                            })
+                        } else {
+                            dt.form_dialog.set_query('sub_budget_head', () => {
+                                return {
+                                    filters: {
+                                        name: ['=', 'Please select a budget head first.']
+                                    }
+                                }
+                            })
+                        }
+                    }
+                    dt.form_dialog.set_df_property('planning_table', 'cannot_add_rows', 1)
+                    dt.form_dialog.set_df_property('planning_table', 'cannot_delete_rows', 1)
+                }
+            },
+            "Quarterly Utilisation Report": {
+                ...frm['dt_events']?.['Quarterly Utilisation Report'],
+                after_render: async function (dt, mode) {
+                    // let {message: {frequency}} = await frappe.db.get_value('Budget Plan and Utilisation', {grant: frm.doc.name}, 'frequency');
+                    dt.form_dialog.set_df_property('quarterly_utilisation', 'cannot_add_rows', 1)
+                    dt.form_dialog.set_df_property('quarterly_utilisation', 'cannot_delete_rows', 1)
+                    frappe.call({
+                        method: 'mgrant.apis.quarterly_utilisation_report.quarterly_utilisation_report.get_options',
+                        args: {
+                            project: frm.doc.project,
+                            year: frm.doc.year,
+                            grant: frm.docname,
+                            frequency: 'Monthly',
+                        },
+                        callback: function (r) {
+                            dt.form_dialog.set_df_property('quarter', 'options', r.message.period_options)
+                        }
+                    })
+                    frappe.call({
+                        method: 'mgrant.apis.quarterly_utilisation_report.quarterly_utilisation_report.use_option',
+                        args: {
+                            grant: frm.doc.name,
+                        },
+                        callback: function (r) {
+                            setTimeout(function () {
+                                let $select = $(dt.form_dialog.fields_dict.quarter.$input);
+                                // First, enable all options
+                                $select.find('option').prop('disabled', false);
+                                // Then disable only the used quarters if data is available
+                                if (r.message && r.message.length > 0) {
+                                    (r.message || []).forEach(function (disabledValue) {
+                                        $select.find('option[value="' + disabledValue + '"]').prop('disabled', true);
+                                    });
+                                }
+                            }, 100);
+                        }
+                    })
+                    if (mode != 'create') {
+                        dt.form_dialog.set_df_property('quarter', 'hidden', 1)
+                    }
+                },
+                quarter: async function (dt, mode) {
+                    if (mode == 'create') {
+                        toggleFieldError(dt.form_dialog, 'quarterly_utilisation', '', false, true)
+                        let period = dt.form_dialog.get_value('quarter');
+                        let period_object = dt.form_dialog?.fields_dict?.quarter?.df?.options?.find(item => item.value == period);
+                        if (period_object) {
+                            await dt.form_dialog.set_value('timespan', period_object.label)
+                            await dt.form_dialog.set_value('start_date', period_object.start_date)
+                            await dt.form_dialog.set_value('end_date', period_object.end_date)
+                        }
+                        await get_quarterly_utilisation_report(frm, dt, 'Monthly', 0)
+                        budget_reporting_variance_validation(dt)
+                    }
+                },
+            },
+            "Periodic Output Achievement": {
+                ...frm['dt_events']?.['Periodic Output Achievement'],
+                after_render: function (dt, mode) {
+                    dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
+                    dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
+                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_output_achievement.get_options',"Monthly")
+                    disable_lfas_used_period_options(dt, 'mgrant.apis.periodic_output_achievement.use_option')
+                    if (mode != 'create') {
+                        dt.form_dialog.set_df_property('period', 'hidden', 1)
+                    }
+                },
+                period: async function (dt, mode) {
+                    if (mode == 'create') {
+                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_output_achievement.get_periodic_achievement_report',"Monthly")
+                    }
+                },
+            },
+            "Periodic Outcome Achievement": {
+                ...frm['dt_events']?.['Periodic Outcome Achievement'],
+                after_render: function (dt, mode) {
+                    dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
+                    dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
+                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_outcome_achievement.get_options',"Monthly")
+                    disable_lfas_used_period_options(dt, 'mgrant.apis.periodic_outcome_achievement.use_option')
+                    if (mode != 'create') {
+                        dt.form_dialog.set_df_property('period', 'hidden', 1)
+                    }
+                },
+                period: async function (dt, mode) {
+                    if (mode == 'create') {
+                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_outcome_achievement.get_periodic_achievement_report',"Monthly")
+                    }
+                },
+            },
+            "Periodic Impact Achievement": {
+                ...frm['dt_events']?.['Periodic Impact Achievement'],
+                after_render: function (dt, mode) {
+                    dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
+                    dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
+                    setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_impact_achievement.get_options',"Monthly")
+                    disable_lfas_used_period_options(dt, 'mgrant.apis.periodic_impact_achievement.use_option')
+                    if (mode != 'create') {
+                        dt.form_dialog.set_df_property('period', 'hidden', 1)
+                    }
+                },
+                period: async function (dt, mode) {
+                    if (mode == 'create') {
+                        handle_period_change_for_lfa_reportings(dt, 'mgrant.apis.periodic_impact_achievement.get_periodic_achievement_report',"Monthly")
+                    }
+                },
             }
         }
     }
