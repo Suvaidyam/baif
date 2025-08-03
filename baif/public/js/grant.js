@@ -220,6 +220,7 @@ frappe.ui.form.on("Grant", {
             "Periodic Output Achievement": {
                 ...frm['dt_events']?.['Periodic Output Achievement'],
                 after_render: function (dt, mode) {
+                    dt.form_dialog.set_value('frequency','Quarterly')
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
                     setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_output_achievement.get_options',"Quarterly")
@@ -237,6 +238,7 @@ frappe.ui.form.on("Grant", {
             "Periodic Outcome Achievement": {
                 ...frm['dt_events']?.['Periodic Outcome Achievement'],
                 after_render: function (dt, mode) {
+                    dt.form_dialog.set_value('frequency','Quarterly')
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
                     setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_outcome_achievement.get_options',"Quarterly")
@@ -254,6 +256,7 @@ frappe.ui.form.on("Grant", {
             "Periodic Impact Achievement": {
                 ...frm['dt_events']?.['Periodic Impact Achievement'],
                 after_render: function (dt, mode) {
+                    dt.form_dialog.set_value('frequency','Quarterly')
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_add_rows', 1)
                     dt.form_dialog.set_df_property('periodic_achievement', 'cannot_delete_rows', 1)
                     setup_period_options_for_lfa_reportings(dt, 'mgrant.apis.periodic_impact_achievement.get_options',"Quarterly")
