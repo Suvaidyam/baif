@@ -29,9 +29,9 @@ frappe.ui.form.on("Grant", {
                 state: (dt, mode) => {
                     dt.form_dialog.set_value("district", '')
                 },
-                kpi: function (dt, mode) {
+                kpi: async function (dt, mode) {
                     if (mode == 'create') {
-                        get_kpi_name(dt, 'output_name');
+                        await get_kpi_name(dt, 'output_name');
                     }
                 }
             },
@@ -52,9 +52,9 @@ frappe.ui.form.on("Grant", {
                 state: (dt, mode) => {
                     dt.form_dialog.set_value("district", '')
                 },
-                kpi: function (dt, mode) {
+                kpi: async function (dt, mode) {
                     if (mode == 'create') {
-                        get_kpi_name(dt, 'outcome_name');
+                        await get_kpi_name(dt, 'outcome_name');
                     }
                 }
             },
@@ -75,9 +75,9 @@ frappe.ui.form.on("Grant", {
                 state: (dt, mode) => {
                     dt.form_dialog.set_value("district", '')
                 },
-                kpi: function (dt, mode) {
+                kpi: async function (dt, mode) {
                     if (mode == 'create') {
-                        get_kpi_name(dt, 'impact_name');
+                        await get_kpi_name(dt, 'impact_name');
                     }
                 }
             },
