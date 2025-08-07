@@ -1,0 +1,289 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "SVAWorkspace Configuration",
+  "heatmaps": [
+   {
+    "block_height": 0,
+    "custom_block": "Heatmap for grant",
+    "default_view": "State",
+    "max_data_color": null,
+    "min_data_color": null,
+    "primary_target": "total_planned_budget",
+    "report": "State-wise Grant",
+    "target_fields": "[{\"fieldname\":\"count\",\"label\":\"Total Grants\",\"fieldtype\":\"Int\"},{\"fieldname\":\"total_planned_budget\",\"label\":\"Total Planned Budget\",\"fieldtype\":\"Currency\"}]"
+   }
+  ],
+  "modified": "2025-05-28 11:29:11.167950",
+  "name": "Home",
+  "tables": [
+   {
+    "action_label": "Approval",
+    "connection_type": "Unfiltered",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Upcoming Reporting",
+    "extend_condition": 1,
+    "extended_condition": "[\n[\"Reporting\",\"due_date\",\"<\",\"TODAY\"],\n[\"Reporting\",\"submission_status\",\"NOT IN\",[\"Submitted\"]]\n]",
+    "link_doctype": "Reporting",
+    "link_report": null,
+    "listview_settings": "[{\"fieldname\":\"report_type\",\"label\":\"Report Type\",\"width\":\"2\"},{\"fieldname\":\"report_name\",\"label\":\"Report Name\",\"width\":\"2\"},{\"fieldname\":\"due_date\",\"label\":\"Due Date\",\"width\":\"2\"},{\"fieldname\":\"submission_status\",\"label\":\"Submission Status\",\"width\":\"2\"},{\"fieldname\":\"report_linkfile\",\"label\":\"Report Link/File\",\"width\":\"2\"},{\"fieldname\":\"submission_date\",\"label\":\"Submission Date\",\"width\":\"2\"}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Reporting (Delayed)"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Unfiltered",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Your Upcoming Tasks",
+    "extend_condition": 1,
+    "extended_condition": "[\n[\"ToDo\",\"custom_task_status\",\"IN\",[\"Delayed\"]]\n]",
+    "link_doctype": "ToDo",
+    "link_report": null,
+    "listview_settings": "[{\"fieldname\":\"custom_title\",\"label\":\"Title\",\"width\":\"2\"},{\"fieldname\":\"priority\",\"label\":\"Priority\",\"width\":\"2\"},{\"fieldname\":\"custom_task_status\",\"label\":\"Status\",\"width\":\"2\"},{\"fieldname\":\"date\",\"label\":\"Due Date\",\"width\":\"2\"},{\"fieldname\":\"custom_start_date\",\"label\":\"Start Date\",\"width\":\"2\"},{\"fieldname\":\"custom_assigned_to\",\"label\":\"Assigned To\",\"width\":\"2\"}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "ToDos (Delayed)"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Report",
+    "crud_permissions": "[\"read\",\"write\",\"create\",\"delete\"]",
+    "custom_html_block": "Application In Pipeline",
+    "extend_condition": 0,
+    "extended_condition": "{}",
+    "link_doctype": null,
+    "link_report": "Application In pipline",
+    "listview_settings": "[{\"label\":\"Application Name\",\"fieldname\":\"proposal\",\"width\":2},{\"label\":\"Stage\",\"fieldname\":\"stage\",\"width\":2}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Application In Pipeline"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Report",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Upcoming Tranches",
+    "extend_condition": 0,
+    "extended_condition": "{}",
+    "link_doctype": null,
+    "link_report": "Tranches upcoming next 3 month",
+    "listview_settings": "[{\"fieldname\":\"planned_due_date\",\"label\":\"Planned Due Date\",\"width\":\"2\"},{\"fieldname\":\"total_funds_planned\",\"label\":\"Total Funds Planned\",\"width\":\"2\"},{\"fieldname\":\"donor_name\",\"label\":\"Donor\",\"width\":\"2\"},{\"fieldname\":\"ngo_name\",\"label\":\"NGO\",\"width\":\"2\"},{\"fieldname\":\"wf_comment\",\"label\":\"Comment\",\"width\":\"2\"}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Upcoming Tranches (Next 3 Months)"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Unfiltered",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Active Grant",
+    "extend_condition": 1,
+    "extended_condition": "[\n[\"Grant\",\"grant_status\",\"IN\",[\"Active\"]]\n]",
+    "link_doctype": "Grant",
+    "link_report": null,
+    "listview_settings": "[{\"fieldname\":\"grant_name\",\"label\":\"Grant Title\",\"width\":\"2\"},{\"label\":\"Total Sanctioned Funds\",\"fieldname\":\"total_planned_budget\",\"width\":2}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Active Grants"
+   }
+  ],
+  "workspace": "Home"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SVAWorkspace Configuration",
+  "heatmaps": [],
+  "modified": "2025-04-28 12:01:15.252388",
+  "name": "NGO Home",
+  "tables": [
+   {
+    "action_label": "Approval",
+    "connection_type": "Unfiltered",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Recent Grants",
+    "extend_condition": 0,
+    "extended_condition": "{}",
+    "link_doctype": "Grant",
+    "link_report": null,
+    "listview_settings": "[{\"fieldname\":\"grant_name\",\"label\":\"Grant Title\",\"width\":\"2\"},{\"fieldname\":\"programme\",\"label\":\"Programme\",\"width\":\"2\"},{\"fieldname\":\"ngo\",\"label\":\"NGO\",\"width\":\"2\"},{\"fieldname\":\"donor\",\"label\":\"Donor\",\"width\":\"2\"},{\"fieldname\":\"vendor\",\"label\":\"Vendor\",\"width\":\"2\"},{\"fieldname\":\"start_date\",\"label\":\"MoU Start Date\",\"width\":\"2\"},{\"fieldname\":\"end_date\",\"label\":\"MoU End Date\",\"width\":\"2\"},{\"fieldname\":\"extended_date\",\"label\":\"Extended Date\",\"width\":\"2\"},{\"label\":\"Grant Agreement/MoU\",\"fieldname\":\"grant_agreement_mou\",\"width\":2}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Recent Grants"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Unfiltered",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Upcoming Reporting",
+    "extend_condition": 1,
+    "extended_condition": "[\n[\"Reporting\",\"due_date\",\">=\",\"TODAY\"],\n[\"Reporting\",\"submission_status\",\"IN\",[\"Due\",\"In Draft\"]]\n]",
+    "link_doctype": "Reporting",
+    "link_report": null,
+    "listview_settings": "[{\"fieldname\":\"report_type\",\"label\":\"Report Type\",\"width\":\"2\"},{\"fieldname\":\"report_name\",\"label\":\"Report Name\",\"width\":\"2\"},{\"fieldname\":\"due_date\",\"label\":\"Due Date\",\"width\":\"2\"},{\"fieldname\":\"submission_status\",\"label\":\"Submission Status\",\"width\":\"2\"},{\"fieldname\":\"report_linkfile\",\"label\":\"Report Link/File\",\"width\":\"2\"},{\"fieldname\":\"submission_date\",\"label\":\"Submission Date\",\"width\":\"2\"}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Upcoming Reporting"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Unfiltered",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Upcoming Tranches",
+    "extend_condition": 1,
+    "extended_condition": "[\n[\"Grant Receipts\",\"planned_due_date\",\">=\",\"TODAY\"]\n]",
+    "link_doctype": "Grant Receipts",
+    "link_report": null,
+    "listview_settings": "[{\"fieldname\":\"planned_due_date\",\"label\":\"Planned Due Date\",\"width\":\"2\"},{\"fieldname\":\"total_funds_planned\",\"label\":\"Total Funds Planned\",\"width\":\"2\"},{\"label\":\"Donor\",\"fieldname\":\"donor\",\"width\":2},{\"label\":\"NGO\",\"fieldname\":\"ngo\",\"width\":2},{\"label\":\"Comment\",\"fieldname\":\"wf_comment\",\"width\":2}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Upcoming Tranches"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Unfiltered",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Your Upcoming Tasks",
+    "extend_condition": 1,
+    "extended_condition": "[\n    [\"ToDo\",\"date\",\">=\",\"TODAY\"],\n    [\"ToDo\",\"custom_task_status\",\"IN\",[\"To Do\",\"Backlog\"]]\n]",
+    "link_doctype": "ToDo",
+    "link_report": null,
+    "listview_settings": "[{\"fieldname\":\"custom_title\",\"label\":\"Title\",\"width\":\"2\"},{\"fieldname\":\"priority\",\"label\":\"Priority\",\"width\":\"2\"},{\"fieldname\":\"custom_task_status\",\"label\":\"Status\",\"width\":\"2\"},{\"fieldname\":\"date\",\"label\":\"Due Date\",\"width\":\"2\"},{\"fieldname\":\"custom_start_date\",\"label\":\"Start Date\",\"width\":\"2\"},{\"fieldname\":\"custom_assigned_to\",\"label\":\"Assigned To\",\"width\":\"2\"}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Your Upcoming Tasks"
+   }
+  ],
+  "workspace": "NGO Home"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SVAWorkspace Configuration",
+  "heatmaps": [
+   {
+    "block_height": 500,
+    "custom_block": "State-wise Grant",
+    "default_view": "State",
+    "max_data_color": "#B71C1C",
+    "min_data_color": "#FFEBEE",
+    "primary_target": "count",
+    "report": "State-wise Grant",
+    "target_fields": "[{\"fieldname\":\"count\",\"label\":\"Total Grants\",\"fieldtype\":\"Int\"}]"
+   }
+  ],
+  "modified": "2025-05-06 16:54:27.774814",
+  "name": "Grant Management",
+  "tables": [],
+  "workspace": "Grant Management"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SVAWorkspace Configuration",
+  "heatmaps": [
+   {
+    "block_height": 500,
+    "custom_block": "State-wise Grant",
+    "default_view": "State",
+    "max_data_color": "#CB2929",
+    "min_data_color": "#ffcd7d",
+    "primary_target": "count",
+    "report": "State-wise Grant",
+    "target_fields": "[{\"fieldname\":\"count\",\"label\":\"Total Grants\",\"fieldtype\":\"Int\"},{\"fieldname\":\"total_planned_budget\",\"label\":\"Total Planned Budget\",\"fieldtype\":\"Currency\"}]"
+   }
+  ],
+  "modified": "2025-05-02 18:41:56.971413",
+  "name": "Dashboard",
+  "tables": [],
+  "workspace": "Dashboard"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SVAWorkspace Configuration",
+  "heatmaps": [],
+  "modified": "2025-08-02 23:28:24.332178",
+  "name": "Grants Workspace",
+  "tables": [
+   {
+    "action_label": "Approval",
+    "connection_type": "Report",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Tasks for Grant",
+    "extend_condition": 0,
+    "extended_condition": "{}",
+    "link_doctype": "",
+    "link_report": "Grant Tasks Delayed",
+    "listview_settings": "[{\"label\":\"Grant\",\"fieldname\":\"grant_name\",\"width\":2},{\"label\":\"Task Name\",\"fieldname\":\"custom_title\",\"width\":2},{\"label\":\"Due Date\",\"fieldname\":\"Date\",\"width\":2},{\"label\":\"Owner\",\"fieldname\":\"full_name\",\"width\":2}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Task (Delayed)"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Report",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Report for grant",
+    "extend_condition": 0,
+    "extended_condition": "{}",
+    "link_doctype": null,
+    "link_report": "Grant Report Delayed",
+    "listview_settings": "[{\"fieldname\":\"grant_name\",\"fieldtype\":\"undefined\",\"label\":\"Grant\",\"width\":\"2\",\"inline_edit\":0},{\"fieldname\":\"ngo_name\",\"fieldtype\":\"undefined\",\"label\":\"NGO\",\"width\":\"2\",\"inline_edit\":0},{\"fieldname\":\"report_name\",\"fieldtype\":\"undefined\",\"label\":\"Report Name\",\"width\":\"2\",\"inline_edit\":0},{\"fieldname\":\"due_date\",\"fieldtype\":\"undefined\",\"label\":\"Due Date\",\"width\":\"2\",\"inline_edit\":0}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Report (Delayed)"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Report",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Grant Expiry In 3 Month",
+    "extend_condition": 0,
+    "extended_condition": "{}",
+    "link_doctype": null,
+    "link_report": "Active Grant Last 3 Months",
+    "listview_settings": "[{\"label\":\"Grant\",\"fieldname\":\"grant_name\",\"width\":2},{\"label\":\"NGO\",\"fieldname\":\"ngo_name\",\"width\":2},{\"label\":\"End Date\",\"fieldname\":\"end_date\",\"width\":2},{\"label\":\"Utilisation (%)\",\"fieldname\":\"utilisation_per\",\"width\":2}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Grant expiry in next 3 months & Utilisation less than 75 %"
+   },
+   {
+    "action_label": "Approval",
+    "connection_type": "Report",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Grant with no activity in 2 months",
+    "extend_condition": 0,
+    "extended_condition": "{}",
+    "link_doctype": null,
+    "link_report": "Grant with no activity in 2 months",
+    "listview_settings": "[{\"fieldname\":\"grant_name\",\"label\":\"Grant\",\"width\":\"2\"},{\"fieldname\":\"ngo_name\",\"label\":\"NGO\",\"width\":\"2\"},{\"fieldname\":\"end_date\",\"label\":\"End Date\",\"width\":\"2\"}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Grant With No Activity In 2 Months"
+   }
+  ],
+  "workspace": "Grants Workspace"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SVAWorkspace Configuration",
+  "heatmaps": [],
+  "modified": "2025-05-28 15:00:00.911242",
+  "name": "Applications Workspace",
+  "tables": [
+   {
+    "action_label": "Approval",
+    "connection_type": "Report",
+    "crud_permissions": "[\"read\"]",
+    "custom_html_block": "Task for Application",
+    "extend_condition": 0,
+    "extended_condition": "{}",
+    "link_doctype": null,
+    "link_report": "Task Delayed Application",
+    "listview_settings": "[{\"fieldname\":\"custom_title\",\"label\":\"Task\",\"width\":\"2\"},{\"fieldname\":\"title\",\"label\":\"RFP\",\"width\":\"2\"},{\"fieldname\":\"ngo_name\",\"label\":\"NGO\",\"width\":\"2\"},{\"fieldname\":\"description\",\"label\":\"Description\",\"width\":\"2\"},{\"fieldname\":\"full_name\",\"label\":\"Assigned To\",\"width\":\"2\"}]",
+    "redirect_to_main_form": 1,
+    "template": "Tasks",
+    "title": "Tasks (Delayed)"
+   }
+  ],
+  "workspace": "Applications Workspace"
+ }
+]
