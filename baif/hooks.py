@@ -4,6 +4,7 @@ app_publisher = "Amresh Yadav"
 app_description = "baif"
 app_email = "amresh.yadav@dhwaniris.com"
 app_license = "mit"
+required_apps = ["Suvaidyam/mgrant"]
 
 # Apps
 # ------------------
