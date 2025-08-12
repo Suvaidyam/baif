@@ -1,0 +1,112 @@
+[
+ {
+  "custom_belongs_to": "Donor",
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-03-27 10:09:24.957454",
+  "name": "NGO Compliance Auditor",
+  "role_profile": "NGO Compliance Auditor",
+  "roles": [
+   {
+    "role": "NGO Compliance Auditor"
+   }
+  ]
+ },
+ {
+  "custom_belongs_to": "Donor",
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-04-08 15:17:47.519521",
+  "name": "Partnerships Team",
+  "role_profile": "Partnerships Team",
+  "roles": [
+   {
+    "role": "mGrant Partnerships"
+   }
+  ]
+ },
+ {
+  "custom_belongs_to": "Donor",
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-07-08 15:35:13.054133",
+  "name": "SMT",
+  "role_profile": "SMT",
+  "roles": [
+   {
+    "role": "SMT"
+   }
+  ]
+ },
+ {
+  "custom_belongs_to": "Donor",
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-07-08 15:56:20.057359",
+  "name": "Finance Team",
+  "role_profile": "Finance Team",
+  "roles": [
+   {
+    "role": "Finance Team"
+   }
+  ]
+ },
+ {
+  "custom_belongs_to": "Donor",
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-07-08 16:01:50.719005",
+  "name": "Executive/ India Director",
+  "role_profile": "Executive/ India Director ",
+  "roles": [
+   {
+    "role": "Executive/ India Director"
+   }
+  ]
+ },
+ {
+  "custom_belongs_to": "Donor",
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-07-17 15:55:40.111985",
+  "name": "Programme Managers",
+  "role_profile": "Programme Manager",
+  "roles": [
+   {
+    "role": "Programme Manager"
+   },
+   {
+    "role": "Donor Admin"
+   },
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ]
+ },
+ {
+  "custom_belongs_to": "Donor",
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-04-06 14:42:43.640889",
+  "name": "Donor Admin",
+  "role_profile": "Admin",
+  "roles": [
+   {
+    "role": "mGrant Donor Admin"
+   }
+  ]
+ },
+ {
+  "custom_belongs_to": "NGO",
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2024-12-23 16:46:11.394144",
+  "name": "NGO Admin",
+  "role_profile": "NGO Admin",
+  "roles": [
+   {
+    "role": "NGO Admin"
+   }
+  ]
+ }
+]
